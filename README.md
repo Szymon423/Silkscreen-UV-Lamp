@@ -83,35 +83,11 @@ Plug it into any USB-C charger, put it over the board and let the UV LED harden 
 └── docs/                          # Images and schematic PDF for this README
 ```
 
-## Roadmap
-
-- [x] Schematic
-- [x] PCB layout v0.1 (Ø30 mm)
-- [x] Enclosure design & renders
-- [ ] Order and assemble the first prototype
-- [ ] Measure LED current and temperature
-- [ ] Find the right exposure time for common UV soldermasks
-- [ ] Hardware v1.0 release
-
-## Building one
-
 > [!WARNING]
 > This project is **work in progress**. Hardware v0.1 has not been fully tested yet, so order boards at your own risk.
 
 > [!CAUTION]
 > **UV light can damage your eyes and skin.** Never look into the LED while it is on, and use UV-blocking glasses.
-
-1. Open `01_Hardware/01_KiCad/soldermask-uv-lamp/soldermask-uv-lamp.kicad_pro` in **KiCad 10**.
-2. The fabrication files (Gerbers, BOM, CPL) are in `production/`.
-3. Set the solder jumpers JP1–JP3 according to the LED's datasheet (see the schematic).
-4. Print the enclosure from `01_Hardware/02_3D_Model/3D-Printing/`, fit the lens, screw the PCB in with two M2.5 screws and screw the top part on.
-
-## How to use
-
-1. Apply UV-curable soldermask to the PCB and cover it with the printed mask / transparency.
-2. Put the lamp over the board, lens down, and plug in USB-C.
-3. Expose for a few minutes. The right time depends on the soldermask and the distance, so make a test strip first.
-4. Remove the transparency, develop the mask and do a final cure.
 
 ## License
 
