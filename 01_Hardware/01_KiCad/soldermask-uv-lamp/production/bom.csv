@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,1206,1,10u,
+D1,LED_1W_3W_R8,1,UV,
+D2,D_SMA,1,D_TVS,
+J1,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,USB_C_Receptacle_USB2.0_16P,
+Q1,SOT-23,1,BC817,
+"R1, R2",0603,2,5.1k,
+R4,0603,1,2.2k,

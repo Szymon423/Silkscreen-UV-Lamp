@@ -1,2 +1,34 @@
-blend1
-01_Hardware/KiCad/soldermask-uv-lamp/soldermask-uv-lamp-backups
+# ---- KiCad ----
+*-backups/
+_autosave-*
+*-save.kicad_pcb
+*-save.kicad_sch
+*.kicad_prl
+*-unsaved-export-*
+fp-info-cache
+~*.lck
+*.lck
+*.bak
+*.log
+
+# Generated exports (publish them in GitHub Releases instead)
+*.step
+*.stp
+*.stl
+*.pcb3d
+!01_Hardware/01_KiCad/lib/**/*.step
+!01_Hardware/01_KiCad/lib/**/*.stp
+!01_Hardware/02_3D_Model/3D-Printing/*.stl
+
+# ---- Blender ----
+*.blend1
+*.blend2
+
+# ---- Full-resolution renders (web-optimized copies live in docs/images) ----
+01_Hardware/02_3D_Model/Renders/
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
